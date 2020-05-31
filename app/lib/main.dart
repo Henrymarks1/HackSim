@@ -99,7 +99,6 @@ class _HomePageState extends State<HomePage> {
                             time = questions[time][index]['functions'][i][0];
                             index = questions[oldTime][index]['functions'][i][1];
                             itemCount = questions[time][index]['answers'].length;
-                            print(itemCount.toString() + '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
                           }),
                         ),
                       )),
